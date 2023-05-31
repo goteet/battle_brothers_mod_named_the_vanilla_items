@@ -1,0 +1,105 @@
+<brush name="gfx/colored_armor_upgrades.png" version="17">
+  <sprite id="upgrade_white_wolf_back" offsetY="35" ic="FF1A1C21" width="140" height="248" img="entity\armor_upgrades\upgrade_white_wolf_back.png" left="-61" right="55" top="-49" bottom="43" />
+  <sprite id="upgrade_white_wolf_front" offsetY="35" ic="FF2A313D" width="140" height="248" img="entity\armor_upgrades\upgrade_white_wolf_front.png" left="-70" right="0" top="-56" bottom="18" />
+  <sprite id="upgrade_white_wolf_front_damaged" offsetY="35" ic="FF2A313D" width="140" height="248" img="entity\armor_upgrades\upgrade_white_wolf_front_damaged.png" left="-70" right="0" top="-56" bottom="18" />
+  <sprite id="upgrade_white_wolf_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF2A313E" width="191" height="185" img="entity\armor_upgrades\upgrade_white_wolf_front_dead.png" left="-14" right="60" top="-76" bottom="2" />
+  <sprite id="upgrade_white_wolf_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF1A1D21" width="191" height="185" img="entity\armor_upgrades\upgrade_white_wolf_back_dead.png" left="-56" right="50" top="-71" bottom="23" />
+
+  <sprite id="upgrade_color_fur_01_front" offsetY="35" ic="FF768A94" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_01_front.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_02_front" offsetY="35" ic="FF768A94" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_02_front.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_03_front" offsetY="35" ic="FF768A94" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_03_front.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_04_front" offsetY="35" ic="FF768A94" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_04_front.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_05_front" offsetY="35" ic="FF768A94" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_05_front.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_06_front" offsetY="35" ic="FF768A94" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_06_front.png" left="-64" right="-2" top="-59" bottom="11" />
+
+  <sprite id="upgrade_color_fur_01_back" offsetY="35" ic="FF778B96" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_01_back.png" left="-43" right="57" top="-32" bottom="28" />
+  <sprite id="upgrade_color_fur_02_back" offsetY="35" ic="FF778B96" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_02_back.png" left="-43" right="57" top="-32" bottom="28" />
+  <sprite id="upgrade_color_fur_03_back" offsetY="35" ic="FF778B96" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_03_back.png" left="-43" right="57" top="-32" bottom="28" />
+  <sprite id="upgrade_color_fur_04_back" offsetY="35" ic="FF778B96" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_04_back.png" left="-43" right="57" top="-32" bottom="28" />
+  <sprite id="upgrade_color_fur_05_back" offsetY="35" ic="FF778B96" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_05_back.png" left="-43" right="57" top="-32" bottom="28" />
+  <sprite id="upgrade_color_fur_06_back" offsetY="35" ic="FF778B96" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_06_back.png" left="-43" right="57" top="-32" bottom="28" />
+
+  <sprite id="upgrade_color_fur_01_front_damaged" offsetY="35" ic="FF6C808B" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_01_front_damaged.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_02_front_damaged" offsetY="35" ic="FF6C808B" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_02_front_damaged.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_03_front_damaged" offsetY="35" ic="FF6C808B" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_03_front_damaged.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_04_front_damaged" offsetY="35" ic="FF6C808B" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_04_front_damaged.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_05_front_damaged" offsetY="35" ic="FF6C808B" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_05_front_damaged.png" left="-64" right="-2" top="-59" bottom="11" />
+  <sprite id="upgrade_color_fur_06_front_damaged" offsetY="35" ic="FF6C808B" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_06_front_damaged.png" left="-64" right="-2" top="-59" bottom="11" />
+  
+  <sprite id="upgrade_color_fur_01_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF6F848F" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_01_front_dead.png" left="-2" right="60" top="-55" bottom="11" />
+  <sprite id="upgrade_color_fur_02_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF6F848F" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_02_front_dead.png" left="-2" right="60" top="-55" bottom="11" />
+  <sprite id="upgrade_color_fur_03_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF6F848F" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_03_front_dead.png" left="-2" right="60" top="-55" bottom="11" />
+  <sprite id="upgrade_color_fur_04_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF6F848F" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_04_front_dead.png" left="-2" right="60" top="-55" bottom="11" />
+  <sprite id="upgrade_color_fur_05_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF6F848F" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_05_front_dead.png" left="-2" right="60" top="-55" bottom="11" />
+  <sprite id="upgrade_color_fur_06_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF6F848F" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_06_front_dead.png" left="-2" right="60" top="-55" bottom="11" />
+  
+  <sprite id="upgrade_color_fur_01_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF748895" width="191" height="185"  img="entity\armor_upgrades\upgrade_color_fur_01_back_dead.png" left="-59" right="35" top="-61" bottom="9" />
+  <sprite id="upgrade_color_fur_02_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF748895" width="191" height="185"  img="entity\armor_upgrades\upgrade_color_fur_02_back_dead.png" left="-59" right="35" top="-61" bottom="9" />
+  <sprite id="upgrade_color_fur_03_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF748895" width="191" height="185"  img="entity\armor_upgrades\upgrade_color_fur_03_back_dead.png" left="-59" right="35" top="-61" bottom="9" />
+  <sprite id="upgrade_color_fur_04_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF748895" width="191" height="185"  img="entity\armor_upgrades\upgrade_color_fur_04_back_dead.png" left="-59" right="35" top="-61" bottom="9" />
+  <sprite id="upgrade_color_fur_05_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF748895" width="191" height="185"  img="entity\armor_upgrades\upgrade_color_fur_05_back_dead.png" left="-59" right="35" top="-61" bottom="9" />
+  <sprite id="upgrade_color_fur_06_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF748895" width="191" height="185"  img="entity\armor_upgrades\upgrade_color_fur_06_back_dead.png" left="-59" right="35" top="-61" bottom="9" />
+
+
+  <sprite id="upgrade_color_fur_11_front" offsetY="35" ic="FF465567" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_11_front.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_12_front" offsetY="35" ic="FF465567" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_12_front.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_13_front" offsetY="35" ic="FF465567" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_13_front.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_14_front" offsetY="35" ic="FF465567" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_14_front.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_15_front" offsetY="35" ic="FF465567" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_15_front.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_16_front" offsetY="35" ic="FF465567" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_16_front.png" left="-56" right="4" top="-57" bottom="21" />
+  
+  <sprite id="upgrade_color_fur_11_back" offsetY="35" ic="FF364351" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_11_back.png" left="15" right="55" top="-54" bottom="16" />
+  <sprite id="upgrade_color_fur_12_back" offsetY="35" ic="FF364351" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_12_back.png" left="15" right="55" top="-54" bottom="16" />
+  <sprite id="upgrade_color_fur_13_back" offsetY="35" ic="FF364351" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_13_back.png" left="15" right="55" top="-54" bottom="16" />
+  <sprite id="upgrade_color_fur_14_back" offsetY="35" ic="FF364351" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_14_back.png" left="15" right="55" top="-54" bottom="16" />
+  <sprite id="upgrade_color_fur_15_back" offsetY="35" ic="FF364351" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_15_back.png" left="15" right="55" top="-54" bottom="16" />
+  <sprite id="upgrade_color_fur_16_back" offsetY="35" ic="FF364351" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_16_back.png" left="15" right="55" top="-54" bottom="16" />
+  
+  <sprite id="upgrade_color_fur_11_front_damaged" offsetY="35" ic="FF404E60" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_11_front_damaged.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_12_front_damaged" offsetY="35" ic="FF404E60" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_12_front_damaged.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_13_front_damaged" offsetY="35" ic="FF404E60" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_13_front_damaged.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_14_front_damaged" offsetY="35" ic="FF404E60" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_14_front_damaged.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_15_front_damaged" offsetY="35" ic="FF404E60" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_15_front_damaged.png" left="-56" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_color_fur_16_front_damaged" offsetY="35" ic="FF404E60" width="140" height="248" img="entity\armor_upgrades\upgrade_color_fur_16_front_damaged.png" left="-56" right="4" top="-57" bottom="21" />
+
+  <sprite id="upgrade_color_fur_11_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF404E61" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_11_front_dead.png" left="-2" right="50" top="-69" bottom="13" />
+  <sprite id="upgrade_color_fur_12_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF404E61" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_12_front_dead.png" left="-2" right="50" top="-69" bottom="13" />
+  <sprite id="upgrade_color_fur_13_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF404E61" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_13_front_dead.png" left="-2" right="50" top="-69" bottom="13" />
+  <sprite id="upgrade_color_fur_14_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF404E61" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_14_front_dead.png" left="-2" right="50" top="-69" bottom="13" />
+  <sprite id="upgrade_color_fur_15_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF404E61" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_15_front_dead.png" left="-2" right="50" top="-69" bottom="13" />
+  <sprite id="upgrade_color_fur_16_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF404E61" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_16_front_dead.png" left="-2" right="50" top="-69" bottom="13" />
+  
+  <sprite id="upgrade_color_fur_11_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF364352" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_11_back_dead.png" left="-58" right="-12" top="-48" bottom="26" />
+  <sprite id="upgrade_color_fur_12_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF364352" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_12_back_dead.png" left="-58" right="-12" top="-48" bottom="26" />
+  <sprite id="upgrade_color_fur_13_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF364352" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_13_back_dead.png" left="-58" right="-12" top="-48" bottom="26" />
+  <sprite id="upgrade_color_fur_14_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF364352" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_14_back_dead.png" left="-58" right="-12" top="-48" bottom="26" />
+  <sprite id="upgrade_color_fur_15_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF364352" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_15_back_dead.png" left="-58" right="-12" top="-48" bottom="26" />
+  <sprite id="upgrade_color_fur_16_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF364352" width="191" height="185" img="entity\armor_upgrades\upgrade_color_fur_16_back_dead.png" left="-58" right="-12" top="-48" bottom="26" />
+
+
+  <sprite id="upgrade_horn_01_back" offsetY="35" ic="FF2E4256" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_01_back.png" left="9" right="51" top="-41" bottom="19" />
+  <sprite id="upgrade_horn_02_back" offsetY="35" ic="FF2E4256" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_02_back.png" left="9" right="51" top="-41" bottom="19" />
+  <sprite id="upgrade_horn_03_back" offsetY="35" ic="FF2E4256" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_03_back.png" left="9" right="51" top="-41" bottom="19" />
+  <sprite id="upgrade_horn_04_back" offsetY="35" ic="FF2E4256" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_04_back.png" left="9" right="51" top="-41" bottom="19" />
+
+  <sprite id="upgrade_horn_01_back_damaged" offsetY="35" ic="FF2A3C4E" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_01_back_damaged.png" left="9" right="51" top="-41" bottom="19" />
+  <sprite id="upgrade_horn_02_back_damaged" offsetY="35" ic="FF2A3C4E" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_02_back_damaged.png" left="9" right="51" top="-41" bottom="19" />
+  <sprite id="upgrade_horn_03_back_damaged" offsetY="35" ic="FF2A3C4E" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_03_back_damaged.png" left="9" right="51" top="-41" bottom="19" />
+  <sprite id="upgrade_horn_04_back_damaged" offsetY="35" ic="FF2A3C4E" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_04_back_damaged.png" left="9" right="51" top="-41" bottom="19" />
+
+  <sprite id="upgrade_horn_01_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2B3D4F" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_01_back_dead.png" left="-51" right="-17" top="-50" bottom="16" />
+  <sprite id="upgrade_horn_02_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2B3D4F" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_02_back_dead.png" left="-51" right="-17" top="-50" bottom="16" />
+  <sprite id="upgrade_horn_03_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2B3D4F" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_03_back_dead.png" left="-51" right="-17" top="-50" bottom="16" />
+  <sprite id="upgrade_horn_04_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2B3D4F" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_04_back_dead.png" left="-51" right="-17" top="-50" bottom="16" />
+
+  <sprite id="upgrade_horn_01_front" offsetY="35" ic="FF3F5D7A" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_01_front.png" left="-54" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_horn_02_front" offsetY="35" ic="FF3F5D7A" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_02_front.png" left="-54" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_horn_03_front" offsetY="35" ic="FF3F5D7A" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_03_front.png" left="-54" right="4" top="-57" bottom="21" />
+  <sprite id="upgrade_horn_04_front" offsetY="35" ic="FF3F5D7A" width="140" height="248" img="entity\armor_upgrades\upgrade_horn_04_front.png" left="-54" right="4" top="-57" bottom="21" />
+  
+  <sprite id="upgrade_horn_01_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF3D5A77" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_01_front_dead.png" left="-9" right="43" top="-55" bottom="29" />
+  <sprite id="upgrade_horn_02_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF3D5A77" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_02_front_dead.png" left="-9" right="43" top="-55" bottom="29" />
+  <sprite id="upgrade_horn_03_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF3D5A77" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_03_front_dead.png" left="-9" right="43" top="-55" bottom="29" />
+  <sprite id="upgrade_horn_04_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF3D5A77" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_04_front_dead.png" left="-9" right="43" top="-55" bottom="29" />
+
+</brush>
