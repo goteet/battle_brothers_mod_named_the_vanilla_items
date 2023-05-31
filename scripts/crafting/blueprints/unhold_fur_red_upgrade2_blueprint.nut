@@ -8,7 +8,7 @@ this.unhold_fur_red_upgrade2_blueprint <- this.inherit("scripts/crafting/bluepri
 		this.m.Cost = 50;
 		local ingredients = [
 			{
-				Script = "scripts/items/misc/unhold_fur_upgrade",
+				Script = "scripts/items/armor_upgrades/unhold_fur_upgrade",
 				Num = 1
 			},
 			{

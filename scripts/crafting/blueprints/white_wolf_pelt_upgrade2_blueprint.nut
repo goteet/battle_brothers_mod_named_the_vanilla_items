@@ -8,7 +8,7 @@ this.white_wolf_pelt_upgrade2_blueprint <- this.inherit("scripts/crafting/bluepr
 		this.m.Cost = 50;
 		local ingredients = [
 			{
-				Script = "scripts/items/misc/direwolf_pelt_upgrade",
+				Script = "scripts/items/armor_upgrades/direwolf_pelt_upgrade",
 				Num = 1
 			},
 			{
