@@ -26,30 +26,15 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 		this.updateVariant();
 		
 		this.m.Value = 2000;
-		this.m.Condition = 155;
-		this.m.ConditionMax = 155;
-		this.m.StaminaModifier = -10;
+		this.m.Condition = 133;
+		this.m.ConditionMax = 133;
+		this.m.StaminaModifier = -7;
 		this.randomizeValues();
 	}
 
-	function updateVariant()
-	{
-		this.m.Variant = this.m.ColorVariant * 10 + this.m.FactionVariant;
-		this.named_helmet.updateVariant();
-	}
-
-	//ColorVariant:
-	//0 = red			| Red
-	//1 = orange		| OrangeRed
-	//2 = yellow		| WhiteGreenYellow
-	//3 = green			| WhiteGreenYellow, switch
-	//4 = cyan          | WhiteBlue
-	//5 = purple		| WhiteBlue
-	//6 = magenta		| None
-	//7 = pink			| None
-	//8 = dark gray		| Black　WhiteGreenYellow
-
-	function onPaint( _color )	
+	//in order to not save two extra variables.
+	//we calculate from variant.
+	function calculateVariant()
 	{
 		this.m.FactionVariant = this.m.Variant % 10;
 		this.m.ColorVariant = this.m.Variant / 10;
@@ -58,10 +43,38 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 			this.m.FactionVariant = 10;
 			this.m.ColorVariant -= 1;
 		}
+	}
+
+	function updateVariant()
+	{
+		this.m.Variant = this.m.ColorVariant * 10 + this.m.FactionVariant;
+		this.named_helmet.updateVariant();
+	}
+
+	function setVariant( _faction )
+	{
+		this.calculateVariant();
+		this.m.FactionVariant = _faction;
+		this.updateVariant();
+	}
+
+	//ColorVariant:
+	//0 = red			| Red
+	//1 = orange		| OrangeRed
+	//2 = yellow		| WhiteGreenYellow
+	//3 = green			| WhiteGreenYellow
+	//4 = cyan          | WhiteBlue
+	//5 = purple		| None
+	//6 = magenta		| None
+	//7 = pink			| Red
+	//8 = dark gray		| Black
+	function onPaint( _color )	
+	{
+		this.calculateVariant();
 		switch(_color)
 		{
 		case this.Const.Items.Paint.None:
-			this.m.ColorVariant = this.m.ColorVariant == 7 ? 6 : 7;
+			this.m.ColorVariant = this.m.ColorVariant == 6 ? 5 : 6;
 			break;
 
 		case this.Const.Items.Paint.Black:
@@ -69,7 +82,7 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 			break;
 
 		case this.Const.Items.Paint.WhiteBlue:
-			this.m.ColorVariant = this.m.ColorVariant == 5 ? 4 : 5;
+			this.m.ColorVariant = 4;
 			break;
 
 		case this.Const.Items.Paint.WhiteGreenYellow:
@@ -81,7 +94,14 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 			break;
 
 		case this.Const.Items.Paint.Red:
-			this.m.ColorVariant = 0;
+			if(this.m.ColorVariant == 7)
+			{
+				this.m.ColorVariant = 0;
+			}
+			else
+			{
+				this.m.ColorVariant = 7;
+			}
 			break;
 		}
 

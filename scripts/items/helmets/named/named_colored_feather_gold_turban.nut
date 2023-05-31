@@ -1,4 +1,4 @@
-this.named_colored_feather_gold_turban <- this.inherit("scripts/items/helmets/named/gold_and_black_turban", {
+this.named_colored_feather_gold_turban <- this.inherit("scripts/items/helmets/named/named_helmet", {
 	m = {},
 	function create()
 	{
@@ -24,9 +24,9 @@ this.named_colored_feather_gold_turban <- this.inherit("scripts/items/helmets/na
 		
 		this.m.ImpactSound = this.Const.Sound.ArmorHalfplateImpact;
 		this.m.InventorySound = this.Const.Sound.ArmorHalfplateImpact;
-		this.m.Value = 2200;
-		this.m.Condition = this.m.ConditionMax = 165;
-		this.m.StaminaModifier = -10;
+		this.m.Value = 3000;
+		this.m.Condition = this.m.ConditionMax = 150;
+		this.m.StaminaModifier = -9;
 		this.m.Vision = -3;
 		this.randomizeValues();
 	}
