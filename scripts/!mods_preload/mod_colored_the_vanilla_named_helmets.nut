@@ -593,13 +593,76 @@
 		});
 	});
 
-	/*
+	///
 	//bind named item to enemies.
-	//gt.Const.World.Spawn.Troops.Knight.Script = "scripts/entity/tactical/enemies/knight_modified";
-	//gt.Const.World.Spawn.Troops.Greatsword.Script = "scripts/entity/tactical/enemies/knight_modified";
-	//gt.Const.World.Spawn.Troops.ZombieKnight.Script = "scripts/entity/tactical/enemies/zombie_knight_modified";
-	//gt.Const.World.Spawn.Troops.DesertStalker.Script = "scripts/entity/tactical/enemies/desert_stalker_modified";
-	*/
+	///
+	::mods_hookNewObject("entity/tactical/humans/knight", function(knight)
+	{
+		local assignRandomEquipment = ::mods_getMember(knight, "assignRandomEquipment");
+		local assignRandomEquipment_ = function()
+		{
+			
+			assignRandomEquipment();
+			//3% to generate rare helmet
 
+			local helmet = this.getItems().getItemAtSlot(this.Const.ItemSlot.Head);
+			if(helmet != null && helmet.m.ID == "armor.head.faction_helm")
+			{
+				local rarity = this.Math.rand(1,100);
+				if(rarity == 1 || rarity == 50 || rarity == 100) 
+				{
+					local banner = this.m.Surcoat;
+					local namedVersionHelment = this.new("scripts/items/helmets/named/named_faction_full_helmet");
+					namedVersionHelment.setVariant(banner);
+					this.m.Items.unequip(helmet);
+					this.m.Items.equip(namedVersionHelment);
+				}
+			}
+		};
+		::mods_override(knight, "assignRandomEquipment", assignRandomEquipment_);
+		
+	});
+
+	::mods_hookNewObject("entity/tactical/humans/noble_greatsword", function(greatsword)
+	{
+		local assignRandomEquipment = ::mods_getMember(greatsword, "assignRandomEquipment");
+		local assignRandomEquipment_ = function()
+		{
+			assignRandomEquipment();
+			// 2% to generate rare helmet
+
+			local helmet = this.getItems().getItemAtSlot(this.Const.ItemSlot.Head);
+			if(helmet != null)
+			{
+				if(helmet.m.ID == "armor.head.greatsword_faction_helm")
+				{
+					local rarity = this.Math.rand(1,100);
+					if(rarity == 1 || rarity == 100)
+					{
+						local banner = helmet.m.Variant;
+						local namedVersionHelment = this.new("scripts/items/helmets/named/named_colored_faction_hat");
+						namedVersionHelment.setVariant(banner);
+						this.m.Items.unequip(helmet);
+						this.m.Items.equip(namedVersionHelment);
+					}
+				}
+				else if(helmet.m.ID == "armor.head.greatsword_hat")
+				{
+					local rarity = this.Math.rand(1,100);
+					if(rarity == 49 || rarity == 50)
+					{
+						local banner = this.m.Surcoat;
+						local namedVersionHelment = this.new("scripts/items/helmets/named/named_colored_faction_hat");
+						namedVersionHelment.setVariant(banner);
+						this.m.Items.unequip(helmet);
+						this.m.Items.equip(namedVersionHelment);
+					}
+				}
+			}
+		};
+
+		::mods_override(greatsword, "assignRandomEquipment", assignRandomEquipment_);
+		
+	});
 	
 });
