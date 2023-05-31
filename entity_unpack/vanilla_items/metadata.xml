@@ -375,4 +375,23 @@
   <sprite id="bust_metal_bull_helmet_01" offsetY="35" ic="FF213346" width="140" height="248" img="entity\helmets\bust_metal_bull_helmet_01.png" left="-53" right="55" top="-25" bottom="55" />
   <sprite id="bust_metal_bull_helmet_01_damaged" offsetY="35" ic="FF203043" width="140" height="248" img="entity\helmets\bust_metal_bull_helmet_01_damaged.png" left="-53" right="55" top="-25" bottom="55" />
   <sprite id="bust_metal_bull_helmet_01_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF213144" width="191" height="185" img="entity\helmets\bust_metal_bull_helmet_01_dead.png" left="-71" right="15" top="-83" bottom="13" />
+
+  <sprite id="bust_golden_barbute_01" offsetY="35" ic="FF3F4F5F" width="140" height="248" img="entity\helmets\bust_golden_barbute_01.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_02" offsetY="35" ic="FF3F4F5F" width="140" height="248" img="entity\helmets\bust_golden_barbute_02.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_03" offsetY="35" ic="FF3F4F5F" width="140" height="248" img="entity\helmets\bust_golden_barbute_03.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_04" offsetY="35" ic="FF3F4F5F" width="140" height="248" img="entity\helmets\bust_golden_barbute_04.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_05" offsetY="35" ic="FF3F4F5F" width="140" height="248" img="entity\helmets\bust_golden_barbute_05.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_06" offsetY="35" ic="FF3F4F5F" width="140" height="248" img="entity\helmets\bust_golden_barbute_06.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_01_damaged" offsetY="35" ic="FF3B4958" width="140" height="248" img="entity\helmets\bust_golden_barbute_01_damaged.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_02_damaged" offsetY="35" ic="FF3B4958" width="140" height="248" img="entity\helmets\bust_golden_barbute_02_damaged.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_03_damaged" offsetY="35" ic="FF3B4958" width="140" height="248" img="entity\helmets\bust_golden_barbute_03_damaged.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_04_damaged" offsetY="35" ic="FF3B4958" width="140" height="248" img="entity\helmets\bust_golden_barbute_04_damaged.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_05_damaged" offsetY="35" ic="FF3B4958" width="140" height="248" img="entity\helmets\bust_golden_barbute_05_damaged.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_06_damaged" offsetY="35" ic="FF3B4958" width="140" height="248" img="entity\helmets\bust_golden_barbute_06_damaged.png" left="-29" right="41" top="-28" bottom="56" />
+  <sprite id="bust_golden_barbute_01_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_01_dead.png" left="-53" right="11" top="-62" bottom="6" />
+  <sprite id="bust_golden_barbute_02_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_02_dead.png" left="-53" right="11" top="-62" bottom="6" />
+  <sprite id="bust_golden_barbute_03_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_03_dead.png" left="-53" right="11" top="-62" bottom="6" />
+  <sprite id="bust_golden_barbute_04_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_04_dead.png" left="-53" right="11" top="-62" bottom="6" />
+  <sprite id="bust_golden_barbute_05_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_05_dead.png" left="-53" right="11" top="-62" bottom="6" />
+  <sprite id="bust_golden_barbute_06_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_06_dead.png" left="-53" right="11" top="-62" bottom="6" />
 </brush>

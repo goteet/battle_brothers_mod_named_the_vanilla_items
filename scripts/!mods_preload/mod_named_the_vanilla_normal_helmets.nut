@@ -7,6 +7,7 @@
 
 	root_named_helmets.push("helmets/named/named_bearhead_helmet");
 	root_named_helmets.push("helmets/named/named_colored_jester_hat");
+	root_named_helmets.push("helmets/named/named_colored_golden_barbute");
 	root_named_helmets.push("helmets/named/named_colored_faction_hat");
 	root_named_helmets.push("helmets/named/named_faction_full_helmet");
 
