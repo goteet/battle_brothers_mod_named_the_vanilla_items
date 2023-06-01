@@ -341,6 +341,27 @@
   <sprite id="bust_feather_golden_turban_04_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_04_dead.png" left="-71" right="27" top="-83" bottom="7" />
   <sprite id="bust_feather_golden_turban_05_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_05_dead.png" left="-71" right="27" top="-83" bottom="7" />
   
+  
+  <sprite id="bust_feather_golden_turban_11" offsetY="35" ic="FF1C4769" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_11.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_12" offsetY="35" ic="FF1C4769" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_12.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_13" offsetY="35" ic="FF1C4769" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_13.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_14" offsetY="35" ic="FF1C4769" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_14.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_15" offsetY="35" ic="FF1C4769" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_15.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_16" offsetY="35" ic="FF1C4769" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_16.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_11_damaged" offsetY="35" ic="FF1B4668" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_11_damaged.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_12_damaged" offsetY="35" ic="FF1B4668" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_12_damaged.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_13_damaged" offsetY="35" ic="FF1B4668" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_13_damaged.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_14_damaged" offsetY="35" ic="FF1B4668" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_14_damaged.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_15_damaged" offsetY="35" ic="FF1B4668" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_15_damaged.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_16_damaged" offsetY="35" ic="FF1B4668" width="140" height="248" img="entity\helmets\bust_feather_golden_turban_16_damaged.png" left="-33" right="37" top="-21" bottom="91" />
+  <sprite id="bust_feather_golden_turban_11_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_11_dead.png" left="-71" right="27" top="-83" bottom="7" />
+  <sprite id="bust_feather_golden_turban_12_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_12_dead.png" left="-71" right="27" top="-83" bottom="7" />
+  <sprite id="bust_feather_golden_turban_13_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_13_dead.png" left="-71" right="27" top="-83" bottom="7" />
+  <sprite id="bust_feather_golden_turban_14_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_14_dead.png" left="-71" right="27" top="-83" bottom="7" />
+  <sprite id="bust_feather_golden_turban_15_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_15_dead.png" left="-71" right="27" top="-83" bottom="7" />
+  <sprite id="bust_feather_golden_turban_16_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF1B476A" width="191" height="185" img="entity\helmets\bust_feather_golden_turban_16_dead.png" left="-71" right="27" top="-83" bottom="7" />
+  
+
   <sprite id="bust_faction_full_helmet_01" offsetY="35" ic="FF3C3957" width="184" height="222" img="entity\helmets\bust_faction_full_helmet_01.png" left="-37" right="43" top="-29" bottom="77" />
   <sprite id="bust_faction_full_helmet_01_damaged" offsetY="35" ic="FF3B3855" width="184" height="222" img="entity\helmets\bust_faction_full_helmet_01_damaged.png" left="-37" right="43" top="-29" bottom="77" />
   <sprite id="bust_faction_full_helmet_01_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C3957" width="191" height="185" img="entity\helmets\bust_faction_full_helmet_01_dead.png" left="-75" right="23" top="-78" bottom="10" />
@@ -394,4 +415,5 @@
   <sprite id="bust_golden_barbute_04_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_04_dead.png" left="-53" right="11" top="-62" bottom="6" />
   <sprite id="bust_golden_barbute_05_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_05_dead.png" left="-53" right="11" top="-62" bottom="6" />
   <sprite id="bust_golden_barbute_06_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_06_dead.png" left="-53" right="11" top="-62" bottom="6" />
+
 </brush>
