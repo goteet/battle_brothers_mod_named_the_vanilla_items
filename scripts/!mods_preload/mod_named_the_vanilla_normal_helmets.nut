@@ -19,7 +19,6 @@
 
 	::mods_hookChildren("entity/tactical/actor", function(actor)
 	{
-		this.logInfo("hook actor");
 		local onAppearanceChanged = ::mods_getMember(actor, "onAppearanceChanged");
 		local onAppearanceChanged_ = function( _appearance, _setDirty = true )
 		{

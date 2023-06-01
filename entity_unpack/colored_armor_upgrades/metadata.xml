@@ -102,4 +102,17 @@
   <sprite id="upgrade_horn_03_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF3D5A77" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_03_front_dead.png" left="-9" right="43" top="-55" bottom="29" />
   <sprite id="upgrade_horn_04_front_dead" offsetX="6" offsetY="10" f="64EF" ic="FF3D5A77" width="191" height="185" img="entity\armor_upgrades\upgrade_horn_04_front_dead.png" left="-9" right="43" top="-55" bottom="29" />
 
+  <sprite id="upgrade_noble_strap_01_back" offsetY="35" ic="FF1F2B35" width="104" height="142" img="entity\armor_upgrades\upgrade_noble_strap_01_back.png" left="-42" right="48" top="-37" bottom="11" />
+  <sprite id="upgrade_noble_strap_02_back" offsetY="35" ic="FF1F2B35" width="104" height="142" img="entity\armor_upgrades\upgrade_noble_strap_02_back.png" left="-42" right="48" top="-37" bottom="11" />
+  <sprite id="upgrade_noble_strap_03_back" offsetY="35" ic="FF1F2B35" width="104" height="142" img="entity\armor_upgrades\upgrade_noble_strap_03_back.png" left="-42" right="48" top="-37" bottom="11" />
+  <sprite id="upgrade_noble_strap_04_back" offsetY="35" ic="FF1F2B35" width="104" height="142" img="entity\armor_upgrades\upgrade_noble_strap_04_back.png" left="-42" right="48" top="-37" bottom="11" />
+  <sprite id="upgrade_noble_strap_05_back" offsetY="35" ic="FF1F2B35" width="104" height="142" img="entity\armor_upgrades\upgrade_noble_strap_05_back.png" left="-42" right="48" top="-37" bottom="11" />
+
+  <sprite id="upgrade_noble_strap_01_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_01_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
+  <sprite id="upgrade_noble_strap_02_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_02_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
+  <sprite id="upgrade_noble_strap_03_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_03_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
+  <sprite id="upgrade_noble_strap_04_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_04_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
+  <sprite id="upgrade_noble_strap_05_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_05_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
+
+  
 </brush>
