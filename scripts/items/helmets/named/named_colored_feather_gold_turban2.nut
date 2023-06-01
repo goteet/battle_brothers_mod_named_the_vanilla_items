@@ -5,7 +5,7 @@ this.named_colored_feather_gold_turban2 <- this.inherit("scripts/items/helmets/n
 		this.named_helmet.create();
 		this.m.ID = "armor.head.named_colored_feather_gold_turban2";
 		this.m.VariantString = "feather_golden_turban";
-		this.m.Variant = this.Math.rand(11, 15);
+		this.m.Variant = this.Math.rand(11, 16);
 		this.updateVariant();
 
 		this.m.NameList = [
@@ -31,20 +31,16 @@ this.named_colored_feather_gold_turban2 <- this.inherit("scripts/items/helmets/n
 		this.randomizeValues();
 	}
 
-
-	//ColorVariant:
-	//5 = Black			| None
-	//1 = red			| Red,  
-	//2 = green			| WhiteGreenYellow
-	//3 = cyan			| WhiteBlue
-	//4 = magenta		| OrangeRed
-
 	function onPaint( _color )
 	{
 		switch(_color)
 		{
 		case this.Const.Items.Paint.None:
 			this.m.Variant = 15;
+			break;
+			
+		case this.Const.Items.Paint.Black:
+			this.m.Variant = 16;
 			break;
 
 		case this.Const.Items.Paint.WhiteBlue:

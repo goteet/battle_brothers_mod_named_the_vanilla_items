@@ -30,15 +30,7 @@ this.named_colored_feather_gold_turban <- this.inherit("scripts/items/helmets/na
 		this.m.Vision = -3;
 		this.randomizeValues();
 	}
-
-
-	//ColorVariant:
-	//5 = Black			| None
-	//1 = red			| Red,  
-	//2 = green			| WhiteGreenYellow
-	//3 = cyan			| WhiteBlue
-	//4 = magenta		| OrangeRed
-
+	
 	function onPaint( _color )
 	{
 		switch(_color)
