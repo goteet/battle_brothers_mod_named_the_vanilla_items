@@ -4,7 +4,7 @@ this.named_van_helsing_helmet <- this.inherit("scripts/items/helmets/named/named
 	function create()
 	{
 		this.named_helmet.create();
-		this.m.ID = "armor.head.named_golden_assassin_mask";
+		this.m.ID = "armor.head.named_van_helsing_helmet";
 		this.m.NameList = [
 			"Van Helsing\'s Wrap",
 			"Van Helsing\'s Mask",
