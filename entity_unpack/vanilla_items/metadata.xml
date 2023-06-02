@@ -39,8 +39,8 @@
   <sprite id="bust_assassin_mask_03_damaged" offsetY="35" ic="FF24292E" width="140" height="248" img="entity\helmets\bust_assassin_mask_03_damaged.png" left="-29" right="37" top="-19" bottom="55" />
   <sprite id="bust_assassin_mask_03_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF25292E" width="191" height="185" img="entity\helmets\bust_assassin_mask_03_dead.png" left="-51" right="15" top="-58" bottom="10" />
 
-  <sprite id="bust_bearhead_helmet_01" offsetY="35" ic="FF262E36" width="104" height="142" img="entity\helmets\bust_bearhead_helmet_01.png" left="-31" right="33" top="-31" bottom="61" />
-  <sprite id="bust_bearhead_helmet_01_damaged" offsetY="35" ic="FF262D35" width="104" height="142" img="entity\helmets\bust_bearhead_helmet_01_damaged.png" left="-32" right="34" top="-29" bottom="59" />
+  <sprite id="bust_bearhead_helmet_01" offsetY="35" ic="FF262E36" width="104" height="142" img="entity\helmets\bust_bearhead_helmet_01.png" left="-37" right="40" top="-33" bottom="61" />
+  <sprite id="bust_bearhead_helmet_01_damaged" offsetY="35" ic="FF262D35" width="104" height="142" img="entity\helmets\bust_bearhead_helmet_01_damaged.png" left="-37" right="40" top="-33" bottom="61" />
   <sprite id="bust_bearhead_helmet_01_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF262D35" width="191" height="159" img="entity\helmets\bust_bearhead_helmet_01_dead.png" left="-57" right="39" top="-69" bottom="7" />
   
   <sprite id="bust_faction_hat_01" offsetY="35" ic="FF3A4151" width="104" height="142" img="entity\helmets\bust_faction_hat_01.png" left="-52" right="42" top="-19" bottom="53" />
@@ -415,5 +415,25 @@
   <sprite id="bust_golden_barbute_04_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_04_dead.png" left="-53" right="11" top="-62" bottom="6" />
   <sprite id="bust_golden_barbute_05_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_05_dead.png" left="-53" right="11" top="-62" bottom="6" />
   <sprite id="bust_golden_barbute_06_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF3C4958" width="191" height="185" img="entity\helmets\bust_golden_barbute_06_dead.png" left="-53" right="11" top="-62" bottom="6" />
+
+
+  <sprite id="bust_undertake_helmet_01" offsetY="35" ic="FF202426" width="140" height="248" img="entity\helmets\bust_undertake_helmet_01.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_02" offsetY="35" ic="FF202426" width="140" height="248" img="entity\helmets\bust_undertake_helmet_02.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_03" offsetY="35" ic="FF202426" width="140" height="248" img="entity\helmets\bust_undertake_helmet_03.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_04" offsetY="35" ic="FF202426" width="140" height="248" img="entity\helmets\bust_undertake_helmet_04.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_05" offsetY="35" ic="FF202426" width="140" height="248" img="entity\helmets\bust_undertake_helmet_05.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_06" offsetY="35" ic="FF202426" width="140" height="248" img="entity\helmets\bust_undertake_helmet_06.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_01_damaged" offsetY="35" ic="FF202425" width="140" height="248" img="entity\helmets\bust_undertake_helmet_01_damaged.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_02_damaged" offsetY="35" ic="FF202425" width="140" height="248" img="entity\helmets\bust_undertake_helmet_02_damaged.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_03_damaged" offsetY="35" ic="FF202425" width="140" height="248" img="entity\helmets\bust_undertake_helmet_03_damaged.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_04_damaged" offsetY="35" ic="FF202425" width="140" height="248" img="entity\helmets\bust_undertake_helmet_04_damaged.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_05_damaged" offsetY="35" ic="FF202425" width="140" height="248" img="entity\helmets\bust_undertake_helmet_05_damaged.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_06_damaged" offsetY="35" ic="FF202425" width="140" height="248" img="entity\helmets\bust_undertake_helmet_06_damaged.png" left="-50" right="52" top="-27" bottom="60" />
+  <sprite id="bust_undertake_helmet_01_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF212527" width="191" height="185" img="entity\helmets\bust_undertake_helmet_01_dead.png" left="-55" right="37" top="-82" bottom="26" />
+  <sprite id="bust_undertake_helmet_02_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF212527" width="191" height="185" img="entity\helmets\bust_undertake_helmet_02_dead.png" left="-55" right="37" top="-82" bottom="26" />
+  <sprite id="bust_undertake_helmet_03_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF212527" width="191" height="185" img="entity\helmets\bust_undertake_helmet_03_dead.png" left="-55" right="37" top="-82" bottom="26" />
+  <sprite id="bust_undertake_helmet_04_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF212527" width="191" height="185" img="entity\helmets\bust_undertake_helmet_04_dead.png" left="-55" right="37" top="-82" bottom="26" />
+  <sprite id="bust_undertake_helmet_05_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF212527" width="191" height="185" img="entity\helmets\bust_undertake_helmet_05_dead.png" left="-55" right="37" top="-82" bottom="26" />
+  <sprite id="bust_undertake_helmet_06_dead" offsetX="6" offsetY="10" f="64F0" f1="-15" f2="-15" ic="FF212527" width="191" height="185" img="entity\helmets\bust_undertake_helmet_06_dead.png" left="-55" right="37" top="-82" bottom="26" />
 
 </brush>
