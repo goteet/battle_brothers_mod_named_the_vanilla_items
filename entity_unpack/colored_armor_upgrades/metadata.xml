@@ -114,5 +114,9 @@
   <sprite id="upgrade_noble_strap_04_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_04_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
   <sprite id="upgrade_noble_strap_05_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF2D4263" width="191" height="185" img="entity\armor_upgrades\upgrade_noble_strap_05_back_dead.png" left="-51" right="37" top="-55" bottom="11" />
 
-  
+  <sprite id="upgrade_bone_platings_01_front" offsetY="35" ic="FF45627A" width="140" height="248" img="entity\armor_upgrades\upgrade_bone_platings_01_front.png" left="-63" right="57" top="-55" bottom="19" />
+  <sprite id="upgrade_bone_platings_01_back" offsetY="35" ic="FF45627A" width="140" height="248" img="entity\armor_upgrades\upgrade_bone_platings_01_back.png" left="-63" right="57" top="-55" bottom="19" />
+  <sprite id="upgrade_bone_platings_01_front_damaged" offsetY="35" ic="FF3B556C" width="140" height="248" img="entity\armor_upgrades\upgrade_bone_platings_01_front_damaged.png" left="-63" right="57" top="-55" bottom="19" />
+  <sprite id="upgrade_bone_platings_01_back_damaged" offsetY="35" ic="FF3B556C" width="140" height="248" img="entity\armor_upgrades\upgrade_bone_platings_01_back_damaged.png" left="-63" right="57" top="-55" bottom="19" />
+  <sprite id="upgrade_bone_platings_01_back_dead" offsetX="6" offsetY="10" f="64FD" ic="FF3C566E" width="191" height="185" img="entity\armor_upgrades\upgrade_bone_platings_01_back_dead.png" left="-57" right="63" top="-54" bottom="28" />
 </brush>
