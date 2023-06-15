@@ -3,8 +3,8 @@ this.additional_padding_red_upgrade <- this.inherit("scripts/items/armor_upgrade
 	function create()
 	{
 		this.additional_padding_upgrade.create();
-		this.m.Name = "Red Unhold Fur Cloak";
-		this.m.ID = "armor_upgrade.unhold_fur_red";
+		this.m.Name = "Red Additional Fur Padding";
+		this.m.ID = "armor_upgrade.additional_padding_red";
 
 		this.m.Icon = "armor_upgrades/upgrade_color_fur_11.png";
 		this.m.IconLarge = this.m.Icon;
