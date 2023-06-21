@@ -1,10 +1,10 @@
-this.unhold_fur_yellow_upgrade2_blueprint <- this.inherit("scripts/crafting/blueprint", {
+this.unhold_fur_upgrade_green_2_blueprint <- this.inherit("scripts/crafting/blueprint", {
 	m = {},
 	function create()
 	{
 		this.blueprint.create();
-		this.m.ID = "blueprint.unhold_fur_yellow_upgrade2";
-		this.m.PreviewCraftable = this.new("scripts/items/armor_upgrades/unhold_fur_yellow_upgrade");
+		this.m.ID = "blueprint.unhold_fur_upgrade_green_2";
+		this.m.PreviewCraftable = this.new("scripts/items/armor_upgrades/unhold_fur_upgrade_green");
 		this.m.Cost = 50;
 		local ingredients = [
 			{
@@ -21,7 +21,7 @@ this.unhold_fur_yellow_upgrade2_blueprint <- this.inherit("scripts/crafting/blue
 
 	function onCraft( _stash )
 	{
-		_stash.add(this.new("scripts/items/armor_upgrades/unhold_fur_yellow_upgrade"));
+		_stash.add(this.new("scripts/items/armor_upgrades/unhold_fur_upgrade_green"));
 	}
 
 });

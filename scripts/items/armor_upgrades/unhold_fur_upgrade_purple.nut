@@ -1,10 +1,10 @@
-this.unhold_fur_pink_upgrade <- this.inherit("scripts/items/armor_upgrades/unhold_fur_upgrade", {
+this.unhold_fur_upgrade_purple <- this.inherit("scripts/items/armor_upgrades/unhold_fur_upgrade", {
 	m = {},
 	function create()
 	{
 		this.unhold_fur_upgrade.create();
-		this.m.Name = "Pink Unhold Fur Cloak";
-		this.m.ID = "armor_upgrade.unhold_fur_pink";
+		this.m.Name = "Purple " + this.m.Name;
+		this.m.ID = "armor_upgrade.unhold_fur_purple";
 
 		this.m.Icon = "armor_upgrades/upgrade_color_fur_05.png";
 		this.m.IconLarge = this.m.Icon;
