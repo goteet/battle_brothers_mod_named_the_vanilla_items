@@ -6,6 +6,7 @@
 	local root_named_helmets = root_items.NamedHelmets;
 
 	root_named_helmets.push("helmets/named/named_bearhead_helmet");
+	root_named_helmets.push("helmets/named/named_van_helsing_helmet");
 	root_named_helmets.push("helmets/named/named_colored_jester_hat");
 	root_named_helmets.push("helmets/named/named_colored_golden_barbute");
 	root_named_helmets.push("helmets/named/named_colored_faction_hat");
