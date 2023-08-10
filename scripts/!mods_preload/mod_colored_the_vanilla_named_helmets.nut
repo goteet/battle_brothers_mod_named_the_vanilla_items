@@ -46,16 +46,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 205)
-				{
-					this.m.Variant = 205;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 205;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "conic_helmet_with_faceguard";
@@ -121,16 +118,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 2)
-				{
-					this.m.Variant = 2;
-					this.m.VariantString = "helmet_southern_named";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 2;
+				this.m.VariantString = "helmet_southern_named";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "golden_turban";
@@ -194,16 +188,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 50)
-				{
-					this.m.Variant = 50;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 50;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "golden_feathers_helmet";
@@ -273,16 +264,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 53)
-				{
-					this.m.Variant = 53;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 53;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "heraldic_mail_helmet";
@@ -350,16 +338,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 51)
-				{
-					this.m.Variant = 51;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 51;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "nasal_feather_helmet";
@@ -425,16 +410,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 203)
-				{
-					this.m.Variant = 203;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 203;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "norse_helmet";
@@ -490,16 +472,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 49)
-				{
-					this.m.Variant = 49;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 49;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "colored_sallet_helmet";
@@ -542,16 +521,13 @@
 		{
 			if(_color == 0)
 			{
-				if(this.m.Variant != 204)
-				{
-					this.m.Variant = 204;
-					this.m.VariantString = "helmet";
-					this.updateVariant();
-					this.updateAppearance();
-					return true;
-				}
+				this.m.Variant = 204;
+				this.m.VariantString = "helmet";
+				this.updateVariant();
+				this.updateAppearance();
+				return true;
 			}
-			else if(this.m.Variant != _color)
+			else
 			{
 				this.m.Variant = _color;
 				this.m.VariantString = "steppe_helmet_with_mail";
