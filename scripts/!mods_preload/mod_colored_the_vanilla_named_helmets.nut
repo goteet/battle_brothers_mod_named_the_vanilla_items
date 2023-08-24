@@ -5,7 +5,7 @@
 	::mods_hookExactClass("items/helmets/named/named_metal_bull_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
 			if(this.Math.rand(1,2) == 2)
@@ -14,23 +14,18 @@
 				this.m.VariantString = "metal_bull_helmet";
 				this.updateVariant();
 			}
-		};
-		::mods_override(helmet, "create", create_);
+		});
 	});
 
 	::mods_hookExactClass("items/helmets/named/named_conic_helmet_with_faceguard", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,8)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			local variant = this.Math.rand(0,8);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//0 = red			| Red,  helmet205
@@ -97,16 +92,12 @@
 	::mods_hookExactClass("items/helmets/named/gold_and_black_turban", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
 			local variant = this.Math.rand(0,4)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//0 = Black			| Black,  helmet_southern_named,2
@@ -166,16 +157,12 @@
 	::mods_hookExactClass("items/helmets/named/golden_feathers_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,5)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			local variant = this.Math.rand(0,5);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//0 = red			| Red,  helmet,50
@@ -239,16 +226,12 @@
 	::mods_hookExactClass("items/helmets/named/heraldic_mail_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,8)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			local variant = this.Math.rand(0,8);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//1 = red			| Red,  
@@ -316,16 +299,12 @@
 	::mods_hookExactClass("items/helmets/named/nasal_feather_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,5)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			local variant = this.Math.rand(0,5);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//1 = red			| Red,  
@@ -389,16 +368,12 @@
 	::mods_hookExactClass("items/helmets/named/norse_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,4)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			local variant = this.Math.rand(0,4);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//1 = red			| Red, 
@@ -458,15 +433,12 @@
 	::mods_hookExactClass("items/helmets/named/sallet_green_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,14)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
+			local variant = this.Math.rand(0,14);
+			this.setVariant(variant);
+		});
 
 		::mods_addMember(helmet, "sallet_green_helmet", "setVariant", function( _color )
 		{
@@ -488,23 +460,17 @@
 			}
 			return false;
 		});
-
-		::mods_override(helmet, "create", create_);
 	});
 
 	::mods_hookExactClass("items/helmets/named/named_steppe_helmet_with_mail", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
-		local create_ = function()
+		::mods_override(helmet, "create", function()
 		{
 			create();
-			local variant = this.Math.rand(0,9)
-			if(variant != 0)
-			{
-				this.setVariant(variant);
-			}
-		};
-		::mods_override(helmet, "create", create_);
+			local variant = this.Math.rand(0,9);
+			this.setVariant(variant);
+		});
 
 		//ColorVariant:
 		//1 = red			| Red,  
