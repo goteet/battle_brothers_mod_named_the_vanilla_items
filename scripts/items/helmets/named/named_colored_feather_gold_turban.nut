@@ -30,6 +30,12 @@ this.named_colored_feather_gold_turban <- this.inherit("scripts/items/helmets/na
 		this.m.Vision = -3;
 		this.randomizeValues();
 	}
+
+	function updateVaraint()
+	{
+		this.m.VariantString = "feather_golden_turban";
+		this.helmet.updateVaraint();
+	}
 	
 	function onPaint( _color )
 	{

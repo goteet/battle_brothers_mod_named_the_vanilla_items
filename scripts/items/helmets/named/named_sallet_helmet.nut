@@ -24,5 +24,10 @@ this.named_sallet_helmet <- this.inherit("scripts/items/helmets/named/named_helm
 		this.m.StaminaModifier = -8;
 		this.randomizeValues();
 	}
+	function updateVaraint()
+	{
+		this.m.VariantString = "sallet_helmet";
+		this.helmet.updateVaraint();
+	}
 });
 

@@ -31,6 +31,12 @@ this.named_faction_full_helmet <- this.inherit("scripts/items/helmets/named/name
 		this.randomizeValues();
 	}
 
+	function updateVaraint()
+	{
+		this.m.VariantString = "faction_full_helmet";
+		this.helmet.updateVaraint();
+	}
+
 	function setVariant( variant )
 	{
 		this.m.Variant = variant;

@@ -29,6 +29,12 @@ this.named_colored_jester_hat <- this.inherit("scripts/items/helmets/named/named
 		this.m.StaminaModifier += 1;
 	}
 
+	function updateVaraint()
+	{
+		this.m.VariantString = "jester_hat";
+		this.helmet.updateVaraint();
+	}
+
 	//1 = white + yellow		| None + 9/5
 	//2 = white + red			| None + 6
 	//3 = white + green			| None + 8

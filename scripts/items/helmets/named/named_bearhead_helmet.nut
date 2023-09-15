@@ -8,5 +8,11 @@ this.named_bearhead_helmet <- this.inherit("scripts/items/helmets/named/wolf_hel
 		this.m.VariantString = "bearhead_helmet";
 		this.updateVariant();
 	}
+
+	function updateVaraint()
+	{
+		this.m.VariantString = "bearhead_helmet";
+		this.helmet.updateVaraint();
+	}
 });
 

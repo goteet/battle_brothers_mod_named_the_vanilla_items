@@ -8,5 +8,10 @@ this.named_knight_helmet <- this.inherit("scripts/items/helmets/named/wolf_helme
 		this.m.VariantString = "knight_helmet";
 		this.updateVariant();
 	}
+	function updateVaraint()
+	{
+		this.m.VariantString = "knight_helmet";
+		this.helmet.updateVaraint();
+	}
 });
 

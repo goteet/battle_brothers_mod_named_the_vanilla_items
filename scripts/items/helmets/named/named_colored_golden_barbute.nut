@@ -27,6 +27,12 @@ this.named_colored_golden_barbute <- this.inherit("scripts/items/helmets/named/n
 		this.randomizeValues();
 	}
 
+	function updateVaraint()
+	{
+		this.m.VariantString = "golden_barbute";
+		this.helmet.updateVaraint();
+	}
+
 	function onPaint( _color )
 	{
 		switch(_color)

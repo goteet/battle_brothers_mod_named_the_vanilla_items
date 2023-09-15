@@ -2,6 +2,16 @@
 
 ::mods_queue("mod_colored_the_vanilla_named_items", "", function() 
 {
+	local updateVaraint_ = function()
+	{
+		local variant = this.m.Variant > 9 ? this.m.Variant : "0" + this.m.Variant;
+		this.m.Sprite = "bust_" + this.m.VariantString + "_" + variant;
+		this.m.SpriteDamaged = "bust_" + this.m.VariantString + "_" + variant + "_damaged";
+		this.m.SpriteCorpse = "bust_" + this.m.VariantString + "_" + variant + "_dead";
+		this.m.IconLarge = "";
+		this.m.Icon = "helmets/inventory_" + this.m.VariantString + "_" + variant + ".png";
+	}
+	
 	::mods_hookExactClass("items/helmets/named/named_metal_bull_helmet", function(helmet)
 	{
 		local create = ::mods_getMember(helmet, "create")
@@ -15,6 +25,20 @@
 				this.updateVariant();
 			}
 		});
+
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant == 1)
+			{
+				this.m.VariantString = "metal_bull_helmet";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
+		});
+		
 	});
 
 	::mods_hookExactClass("items/helmets/named/named_conic_helmet_with_faceguard", function(helmet)
@@ -56,6 +80,19 @@
 				return true;
 			}
 			return false;
+		});
+
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 205)
+			{
+				this.m.VariantString = "conic_helmet_with_faceguard";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
 		});
 
 		::mods_addMember(helmet, "named_conic_helmet_with_faceguard", "onPaint", function( _color )
@@ -117,13 +154,37 @@
 			}
 			else
 			{
-				this.m.Variant = _color;
+				this.m.Variant = (_color == 2) ? 0 : _color;
 				this.m.VariantString = "golden_turban";
 				this.updateVariant();
 				this.updateAppearance();
 				return true;
 			}
 			return false;
+		});
+		
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 2)
+			{
+				this.m.VariantString = "golden_turban";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+
+			local colored_2 = this.m.Variant == 0;
+			if(colored_2)
+			{
+				this.m.Variant = 2;
+			}
+			updateVaraint_();
+
+			if(colored_2)
+			{
+				this.m.Variant = 0;
+			}
 		});
 		
 		::mods_addMember(helmet, "gold_and_black_turban", "onPaint", function( _color )
@@ -190,6 +251,19 @@
 				return true;
 			}
 			return false;
+		});
+
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 50)
+			{
+				this.m.VariantString = "golden_feathers_helmet";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
 		});
 
 		::mods_addMember(helmet, "golden_feathers_helmet", "onPaint", function( _color )
@@ -264,6 +338,19 @@
 			return false;
 		});
 
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 53)
+			{
+				this.m.VariantString = "heraldic_mail_helmet";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
+		});
+
 		::mods_addMember(helmet, "heraldic_mail_helmet", "onPaint", function( _color )
 		{
 			this.m.VariantString = "heraldic_mail_helmet";
@@ -334,6 +421,19 @@
 			return false;
 		});
 
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 51)
+			{
+				this.m.VariantString = "nasal_feather_helmet";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
+		});
+
 		::mods_addMember(helmet, "nasal_feather_helmet", "onPaint", function( _color )
 		{
 			switch(_color)
@@ -401,6 +501,20 @@
 			}
 			return false;
 		});
+
+		
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 203)
+			{
+				this.m.VariantString = "norse_helmet";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
+		});
 		
 		::mods_addMember(helmet, "norse_helmet", "onPaint", function( _color )
 		{
@@ -460,6 +574,19 @@
 			}
 			return false;
 		});
+
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 49)
+			{
+				this.m.VariantString = "colored_sallet_helmet";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
+		});
 	});
 
 	::mods_hookExactClass("items/helmets/named/named_steppe_helmet_with_mail", function(helmet)
@@ -502,6 +629,19 @@
 				return true;
 			}
 			return false;
+		});
+
+		::mods_override(helmet, "updateVariant", function()
+		{
+			if(this.m.Variant != 204)
+			{
+				this.m.VariantString = "steppe_helmet_with_mail";
+			}
+			else
+			{
+				this.m.VariantString = "helmet";
+			}
+			updateVaraint_();
 		});
 
 		::mods_addMember(helmet, "named_steppe_helmet_with_mail", "onPaint", function( _color )

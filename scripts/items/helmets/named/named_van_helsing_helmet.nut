@@ -27,6 +27,12 @@ this.named_van_helsing_helmet <- this.inherit("scripts/items/helmets/named/named
 		this.randomizeValues();
 		this.m.StaminaModifier += 1;
 	}
+	
+	function updateVaraint()
+	{
+		this.m.VariantString = "undertake_helmet";
+		this.helmet.updateVaraint();
+	}
 
 	//1 = white + yellow		| None + 9/5
 	//2 = white + red			| None + 6

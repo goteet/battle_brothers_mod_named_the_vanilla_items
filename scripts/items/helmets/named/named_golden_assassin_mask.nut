@@ -28,5 +28,11 @@ this.named_golden_assassin_mask <- this.inherit("scripts/items/helmets/named/nam
 		this.m.StaminaModifier = -6;
 		this.randomizeValues();
 	}
+
+	function updateVaraint()
+	{
+		this.m.VariantString = "assassin_mask";
+		this.helmet.updateVaraint();
+	}
 });
 

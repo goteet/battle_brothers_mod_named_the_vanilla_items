@@ -1,8 +1,8 @@
 this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/named_helmet", {
 	m = 
 	{
-		FactionVariant = 0,
-		ColorVariant = 0, 
+		FactionVariant = -1,
+		ColorVariant = -1, 
 	},
 	function create()
 	{
@@ -36,19 +36,24 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 	//we calculate from variant.
 	function calculateVariant()
 	{
-		this.m.FactionVariant = this.m.Variant % 10;
-		this.m.ColorVariant = this.m.Variant / 10;
-		if(this.m.FactionVariant == 0)
+		if(this.m.FactionVariant == -1 && this.m.ColorVariant == -1)
 		{
-			this.m.FactionVariant = 10;
-			this.m.ColorVariant -= 1;
+			this.m.FactionVariant = this.m.Variant % 10;
+			this.m.ColorVariant = this.m.Variant / 10;
+			if(this.m.FactionVariant == 0)
+			{
+				this.m.FactionVariant = 10;
+				this.m.ColorVariant -= 1;
+			}
 		}
 	}
 
 	function updateVariant()
 	{
+		this.calculateVariant();
+		this.m.VariantString = "faction_hat";
 		this.m.Variant = this.m.ColorVariant * 10 + this.m.FactionVariant;
-		this.named_helmet.updateVariant();
+		this.helmet.updateVariant();
 	}
 
 	function setVariant( _faction )
@@ -107,6 +112,13 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 
 		this.updateVariant();
 		this.updateAppearance();
+	}
+
+	function onDeserialize( _in )
+	{
+		this.m.FactionVariant = -1;
+		this.m.ColorVariant = -1;
+		this.named_helmet.onDeserialize(_in);
 	}
 });
 
