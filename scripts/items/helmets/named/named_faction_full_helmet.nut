@@ -23,7 +23,7 @@ this.named_faction_full_helmet <- this.inherit("scripts/items/helmets/named/name
 		this.m.ImpactSound = this.Const.Sound.ArmorHalfplateImpact;
 		this.m.InventorySound = this.Const.Sound.ArmorHalfplateImpact;
 		
-		this.m.Value = 1;
+		this.m.Value = 3500;
 		this.m.Condition = 300;
 		this.m.ConditionMax = 300;
 		this.m.StaminaModifier = -22;
