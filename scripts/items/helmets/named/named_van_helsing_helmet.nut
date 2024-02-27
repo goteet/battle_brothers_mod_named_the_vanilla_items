@@ -21,7 +21,7 @@ this.named_van_helsing_helmet <- this.inherit("scripts/items/helmets/named/named
 		this.m.HideHair = true;
 		this.m.HideBeard = true;
 		this.updateVariant();
-		this.m.Value = 2000;
+		this.m.Value = 2500;
 		this.m.Condition = this.m.ConditionMax = 115;
 		this.m.StaminaModifier = -6;
 		this.randomizeValues();

@@ -23,7 +23,7 @@ this.named_golden_assassin_mask <- this.inherit("scripts/items/helmets/named/nam
 		this.m.HideCharacterHead = true;
 		this.m.HideCorpseHead = true;
 		this.updateVariant();
-		this.m.Value = 2000;
+		this.m.Value = 2500;
 		this.m.Condition = this.m.ConditionMax = 120;
 		this.m.StaminaModifier = -6;
 		this.randomizeValues();

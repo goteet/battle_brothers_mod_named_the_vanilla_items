@@ -24,7 +24,7 @@ this.named_colored_feather_gold_turban2 <- this.inherit("scripts/items/helmets/n
 		
 		this.m.ImpactSound = this.Const.Sound.ArmorHalfplateImpact;
 		this.m.InventorySound = this.Const.Sound.ArmorHalfplateImpact;
-		this.m.Value = 3000;
+		this.m.Value = 4000;
 		this.m.Condition = this.m.ConditionMax = 150;
 		this.m.StaminaModifier = -9;
 		this.m.Vision = -1;

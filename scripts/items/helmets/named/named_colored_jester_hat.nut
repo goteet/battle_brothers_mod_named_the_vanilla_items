@@ -22,7 +22,7 @@ this.named_colored_jester_hat <- this.inherit("scripts/items/helmets/named/named
 		this.m.ImpactSound = this.Const.Sound.JesterImpact;
 		this.m.InventorySound = this.Const.Sound.JesterImpact;
 		this.updateVariant();
-		this.m.Value = 2000;
+		this.m.Value = 2200;
 		this.m.Condition = this.m.ConditionMax = 115;
 		this.m.StaminaModifier = -6;
 		this.randomizeValues();

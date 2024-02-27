@@ -174,17 +174,7 @@
 				this.m.VariantString = "helmet";
 			}
 
-			local colored_2 = this.m.Variant == 0;
-			if(colored_2)
-			{
-				this.m.Variant = 2;
-			}
 			updateVaraint_();
-
-			if(colored_2)
-			{
-				this.m.Variant = 0;
-			}
 		});
 		
 		::mods_addMember(helmet, "gold_and_black_turban", "onPaint", function( _color )

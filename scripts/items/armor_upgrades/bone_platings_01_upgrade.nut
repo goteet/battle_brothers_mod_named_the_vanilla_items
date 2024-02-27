@@ -15,7 +15,7 @@ this.bone_platings_01_upgrade <- this.inherit("scripts/items/armor_upgrades/bone
 		this.m.SpriteDamagedFront = "upgrade_bone_platings_01_front_damaged";
 		this.m.SpriteDamagedBack = "upgrade_bone_platings_01_back_damaged";
 		this.m.SpriteCorpseFront = null;
-		this.m.SpriteCorpseBack = "upgrade_bone_platings_01_dead";
+		this.m.SpriteCorpseBack = "upgrade_bone_platings_01_back_dead";
 	}
 });
 

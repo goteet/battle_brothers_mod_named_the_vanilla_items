@@ -19,7 +19,7 @@ this.named_sallet_helmet <- this.inherit("scripts/items/helmets/named/named_helm
 		this.m.Variant = this.Math.rand(1, 2);
 		this.m.VariantString = "sallet_helmet";
 		this.updateVariant();
-		this.m.Value = 2000;
+		this.m.Value = 2500;
 		this.m.Condition = this.m.ConditionMax = 145;
 		this.m.StaminaModifier = -8;
 		this.randomizeValues();
