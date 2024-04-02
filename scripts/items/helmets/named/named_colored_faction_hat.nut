@@ -26,10 +26,13 @@ this.named_colored_faction_hat <- this.inherit("scripts/items/helmets/named/name
 		this.updateVariant();
 		
 		this.m.Value = 2000;
-		this.m.Condition = 133;
-		this.m.ConditionMax = 133;
+		this.m.Condition = 134;
+		this.m.ConditionMax = 134;
 		this.m.StaminaModifier = -7;
 		this.randomizeValues();
+		
+		this.m.Condition = this.Math.max(150, this.m.Condition);
+		this.m.ConditionMax = this.m.Condition;
 	}
 
 	//in order to not save two extra variables.

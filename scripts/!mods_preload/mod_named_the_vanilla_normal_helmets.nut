@@ -11,11 +11,17 @@
 	root_named_helmets.push("helmets/named/named_colored_golden_barbute");
 	root_named_helmets.push("helmets/named/named_colored_faction_hat");
 	root_named_helmets.push("helmets/named/named_faction_full_helmet");
+	root_named_helmets.push("helmets/named/named_golden_assassin_mask");
+	root_named_helmets.push("helmets/named/named_colored_feather_gold_turban");
+	root_named_helmets.push("helmets/named/named_colored_feather_gold_turban2");
 
 	local root_named_helmets_south = root_items.NamedSouthernHelmets;
 	root_named_helmets_south.push("helmets/named/named_golden_assassin_mask");
 	root_named_helmets_south.push("helmets/named/named_colored_feather_gold_turban");
 	root_named_helmets_south.push("helmets/named/named_colored_feather_gold_turban2");
+
+	local root_named_helmets_north = root_items.NamedBarbarianHelmets;
+	root_named_helmets_north.push("helmets/named/named_bearhead_helmet");
 
 
 	::mods_hookChildren("entity/tactical/actor", function(actor)

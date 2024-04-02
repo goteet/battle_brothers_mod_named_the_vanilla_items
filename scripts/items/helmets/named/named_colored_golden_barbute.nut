@@ -25,6 +25,9 @@ this.named_colored_golden_barbute <- this.inherit("scripts/items/helmets/named/n
 		this.m.StaminaModifier = -10;
 		this.m.Vision = -2;
 		this.randomizeValues();
+
+		this.m.Condition = this.Math.max(190, this.m.Condition);
+		this.m.ConditionMax = this.m.Condition;
 	}
 
 	function updateVaraint()
